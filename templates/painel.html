@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Painel Administrativo</title>
+</head>
+<body>
+    <h1>Casais Cadastrados</h1>
+    <ul>
+        {% for casal in casais %}
+        <li>{{ casal.nome1 }} e {{ casal.nome2 }} - Telefone: {{ casal.telefone }} - Presenças: {{ casal.presencas|length }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/logout"><button>Sair</button></a>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Escola de Casais</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Casais</h1>
+        <form method="POST">
+            <input type="text" name="nome1" placeholder="Nome do Cônjuge 1" required>
+            <input type="text" name="nome2" placeholder="Nome do Cônjuge 2" required>
+            <input type="text" name="telefone" placeholder="Telefone" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <a href="{{ url_for('presenca') }}">Registrar Presença</a>
+        <a href="{{ url_for('login') }}">Área Administrativa</a>
+    </div>
+</body>
+</html>
