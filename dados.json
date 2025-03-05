@@ -5,16 +5,4 @@
         "telefone": "62993306044",
         "presencas": 2
     },
-    {
-        "nome1": "CASAL TESTE",
-        "nome2": "CASAL TESTE 2",
-        "telefone": "0123456789",
-        "presencas": 1
-    },
-    {
-        "nome1": "ESPOSO TESTE CASAL",
-        "nome2": "ESPOSA TESTE CASAL",
-        "telefone": "9876543210",
-        "presencas": 1
-    }
-]
+   ]
