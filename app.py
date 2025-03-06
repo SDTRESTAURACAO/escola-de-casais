@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 import json
 import os
@@ -187,4 +186,3 @@ def logout():
 
 if __name__ == "__main__":
     app.run(debug=True)
->>>>>>> 1e553db (Ajustes para deploy no Railway)
