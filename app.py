@@ -89,5 +89,5 @@ def logout():
 
 # Ajuste final para rodar corretamente no Render
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    port = int(os.environ.get("PORT", 5000))  # Obtém a porta do ambiente
+    app.run(host="0.0.0.0", port=port)  # Configura o Flask para rodar na porta correta
